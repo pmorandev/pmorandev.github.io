@@ -1,58 +1,60 @@
 body {
-    text-align: center;
-    font-family: "Montserrat";
-    margin: 0px;
-    background-image: url("imgs/test.jpg");
-    background-size: 100%;
-}
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        background-color: #f4f4f4;
+        color: #333;
+    }
 
-.about {
-    background-color: black;
-    color: white;
-    padding: 10px;
-    box-shadow: 0px 0px 10px 2px black;
-}
+    header {
+        background-color: #009688;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
 
-.projects {
-    background-color: white;
-    color: black;
-    box-shadow: 0px 0px 10px 2px black;
-    padding: 10px;
-    margin: 500px 50px 50px 50px;
-}
+    h1 {
+        margin: 0;
+    }
 
-.project {
-    margin: 70px;
-}
+    h2, h3 {
+        color: #009688;
+    }
 
-.project-content {
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    margin: 45px 50px 50px 50px;
-}
+    section {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-.project-thumbnail {
-    display: inline-block;
-    height: 256px;
-    border: 2px solid lightgray;
-}
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
 
-.project-content button {
-    font-family: "Montserrat";
-    font-weight: 700;
-    height: 50px;
-    width: 125px;
-    margin-top: 10px;
-    color: gray;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid gray;
-    box-shadow: 0px 2px 6px 0px #000000A0;
-}
+    li {
+        margin-bottom: 5px;
+    }
 
-.project-content button:hover {
-    color: black;
-    border: 3px solid rgb(119, 176, 223);
-    cursor: pointer;
-}
+    article {
+        margin-bottom: 20px;
+    }
+
+    #skills ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+	
+	.contact-icons {
+            margin-top: 10px;
+        }
+
+        .contact-icons a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+        }
