@@ -1,71 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Moran - Software Engineer</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!--
+		Basic
+	-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Pedro Moran - Sofwware Engineer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="Pedro Moran Resume" />
+	<meta name="keywords" content="Pedro Moran" />
+
+	<!--
+		Load Fonts
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+	<!--
+		Load CSS
+	-->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/blogs.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+
+	<!--
+		Background Gradient
+	-->
+	<link rel="stylesheet" href="css/gradient.css" />
+
+	<!--
+		Template New-Skin
+	-->
+	<link rel="stylesheet" href="css/new-skin/new-skin.css" />
+
+	<!--
+		Template RTL
+	-->
+	<!--<link rel="stylesheet" href="css/rtl-new.css" />-->
+
+	<!--
+		Template Colors
+	-->
+	<link rel="stylesheet" href="css/demos/demo-7-colors.css" />
+	<!-- <link rel="stylesheet" href="css/template-colors/blue.css" /> -->
+	<!--<link rel="stylesheet" href="css/template-colors/orange.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/pink.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/purple.css" />-->
+	<!--<link rel="stylesheet" href="css/template-colors/red.css" />-->
+
+	<!--
+		Template Dark
+	-->
+	<link rel="stylesheet" href="css/new-skin/classic-skin.css" />
+	<link rel="stylesheet" href="css/template-dark/dark.css" />
+
+
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!--
+		Favicons
+	-->
+	<!-- <link rel="shortcut icon" href="images/favicons/favicon.ico"> -->
+
 </head>
+
 <body>
+	<div class="page new-skin">
 
-    <header>
-        <h1>Pedro Moran</h1>
-        <p>Software Engineer</p>
-		<div class="contact-icons">
-            <a href="https://linkedin.com/in/pedromorandev" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/pmorandev" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-    </header>
+		<!-- preloader -->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <section id="overview">
-        <h2>Overview</h2>
-        <p>Dedicated and results-driven Software Engineer with a passion for delivering high-quality, reliable solutions. Experienced in leveraging cutting-edge technologies and implementing best development practices to achieve project goals. Highly analytical, organized, and motivated, capable of leading development teams and contributing to diverse projects.</p>
-    </section>
+		<!-- background -->
+		<div class="background"></div>
 
-    <section id="employment">
-        <h2>Employment History</h2>
+		<!--
+			Container
+		-->
+		<div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
 
-        <article>
-            <h3>Software Engineer, Contractor (Aug 2018 - Present)</h3>
-            <ul>
-                <li>Developed server-side integration and capabilities for front-end applications using microservices (Spring Framework).</li>
-                <li>Worked on AWS and GCP platforms, with expertise in Postgres, DynamoDB, and MongoDB databases.</li>
-            </ul>
-        </article>
+			<!--
+				Header
+			-->
+			<header class="header">
 
-        <article>
-            <h3>Development Team Leader, TECNASA Tegucigalpa (Feb 2016 - Mar 2021)</h3>
-            <ul>
-                <li>Led the development of REST APIs for back-office and financial applications on financial institutions, utilizing Net Core 1.1 and SQL Server 2016.</li>
-                <li>Developed REST APIs and microservices for financial institutions, using Net Core 2.0 - 2.1, hosted on AZURE.</li>
-            </ul>
-        </article>
+				<!-- header profile -->
+				<div class="profile">
+					<div class="title">Pedro Moran</div>
+					<div class="subtitle subtitle-typed">
+						<div class="typing-title">
+							<p>Software Engineer</p>
+							<p>Fullstack</p>
+							<p>Passionate</p>
+						</div>
+					</div>
+				</div>
 
-        <article>
-            <h3>Developer, Summary Tegucigalpa (Feb 2012 - Oct 2019)</h3>
-            <ul>
-                <li>Developed web projects (ASP, REST), desktop programs, and microservices using .NET Framework 3-4, Net Core 1.1, 2.0, and 2.1.</li>
-                <li>Utilized Microsoft SQL Server versions 2008 - 2016 for data management and Visual Studio versions 2010 - 2019 for development.</li>
-                <li>Worked across various industries, including retail, financial services, and ERPs.</li>
-            </ul>
-        </article>
+				<!-- menu btn -->
+				<!--<a href="#" class="menu-btn"><span></span></a>-->
 
-    </section>
+				<!-- menu -->
+				<div class="top-menu">
+					<ul>
+						<li class="active">
+							<a href="#about-card">
+								<span class="icon ion-person"></span>
+								<span class="link">Bio</span>
+							</a>
+						</li>
+						<li>
+							<a href="#resume-card">
+								<span class="icon ion-android-list"></span>
+								<span class="link">Resume</span>
+							</a>
+						</li>
+						<li>
+							<a href="#contacts-card">
+								<span class="icon ion-at"></span>
+								<span class="link">Contact</span>
+							</a>
+						</li>
+					</ul>
+				</div>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Engineer System</strong> - Universidad Nacional Autónoma de Honduras Tegucigalpa (2006 - Nov 2011)</p>
-    </section>
+			</header>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Languages:</strong> Java (Experienced), C# .NET (Experienced), Python (Beginner)</li>
-            <li><strong>Frameworks:</strong> .Net Framework (Experienced), .Net Core (Experienced), Spring Framework (Experienced), ASP.NET MVC (Experienced), Angular (Beginner), React (Beginner)</li>
-            <li><strong>Development:</strong> Backend Development (Experienced), Microservices (Skillful)</li>
-            <li><strong>Methodologies:</strong> Agile Development (Skillful)</li>
-            <li><strong>Databases:</strong> SQL Server, Postgres, DynamoDB, MongoDB (Skillful)</li>
-            <li><strong>Tools:</strong> Visual Studio</li>
-        </ul>
-    </section>
+			<!--
+				Card - Started
+			-->
+			<div class="card-started" id="home-card">
+
+				<!--
+					Profile
+				-->
+				<div class="profile no-photo">
+
+					<!-- profile image -->
+					<div class="slide" style="background-image: url(images/Me_2.JPG);"></div>
+
+					<!-- profile titles -->
+					<div class="title">Pedro Moran</div>
+					<!--<div class="subtitle">Web Designer</div>-->
+					<div class="subtitle subtitle-typed">
+						<div class="typing-title">
+							<p>Software Engineer</p>
+							<p>Fullstack</p>
+							<p>Passionate</p>
+						</div>
+					</div>
+
+					<!-- profile socials -->
+					<div class="social">
+						<a target="_blank" href="https://github.com/pmorandev">
+							<span class="fa fa-github"></span>
+						</a>
+						<a target="_blank" href="https://linkedin.com/in/pedromorandev">
+							<span class="fa fa-linkedin"></span>
+						</a>
+					</div>
+
+					<!-- profile buttons -->
+					<div class="lnks">
+						<a href="/Pedro_Moran_-_Software_Engineer.pdf" class="lnk">
+							<span class="text">Download CV</span>
+							<span class="ion ion-android-attach"></span>
+						</a>
+						<a href="mailto:p.morandev@gmail.com" class="lnk discover" target="_blank">
+							<span class="text">Hire Me</span>
+							<span class="ion ion-android-mail"></span>
+						</a>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!--
+				Card - About
+			-->
+			<div class="card-inner animated active" id="about-card">
+				<div class="card-wrap">
+
+					<!--
+						About
+					-->
+					<div class="content about">
+
+						<!-- title -->
+						<div class="title">About Me</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="text-box">
+									<p>
+										Hi!👋, I'm <strong>Pedro Moran</strong> a highly skilled software engineer with a passion for delivering innovative solutions and driving project success. Enjoying use the latest technologies to optimize performance and enhance user experience. A team player committed, and eager to join exciting projects.
+									</p>
+								</div>
+							</div>
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="info-list">
+									<ul>
+										<li><strong>Age . . . . .</strong> 35</li>
+                    <li><strong>Experience . . . . .</strong> +10 years</li>
+										<li><strong>Freelance . . . . .</strong> Available</li>
+                    <li><strong>Residence . . . . .</strong> Honduras</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Fun Fact
+					-->
+<!-- 					<div class="content fuct">
+
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="revs-item">
+									<div class="text">
+										<div >
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										</div>
+									</div>
+									<div class="user">
+										<div class="info">
+											<div class="name">Ryan Adlard</div>
+											<div class="company">Web Designer</div>
+										</div>
+										<div class="clear"></div>
+									</div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div> -->
+
+					<!--
+						Services
+					-->
+					<div class="content services">
+
+						<!-- title -->
+						<div class="title">My Skills</div>
+
+						<!-- content -->
+						<div class="row service-items border-line-v">
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon">
+										<span class="fa fa-binoculars"></span>
+									</div>
+									<div class="name">
+										<span >
+                      Problem-solving focused professional								</span>
+									</div>
+									<div class="desc">
+										<div >
+											Approaching each task with a problem-solving mindset, using analytical thinking to overcome obstacles, and drive innovative solutions.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- service item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon">
+										<span class="fa fa-rocket"></span>
+									</div>
+									<div class="name">
+										<span >
+                      Optimization and Integration Expertise								</span>
+									</div>
+									<div class="desc">
+										<div >
+											With extensive experience, I excel in enhancing system performance, providing seamless integration and scalability across diverse environments.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- service item -->
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-h">
+								<div class="service-item">
+									<div class="icon">
+										<span class="fa fa-bullhorn"></span>
+									</div>
+									<div class="name">
+										<span >
+                      Clear Communication								</span>
+									</div>
+									<div class="desc">
+										<div >
+											Armed with strong communication skills, I communicate complex concepts with clarity and precision, fostering effective collaboration and driving informed decision-making processes.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--
+				Card - Resume
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="card-wrap">
+
+					<!--
+						Resume
+					-->
+					<div class="content resume">
+
+						<!-- title -->
+						<div class="title">Resume</div>
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- experience -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="fa fa-briefcase"></i></div>
+									<div class="name">Experience</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h active">
+										<div class="date">2022 - 2024</div>
+										<div class="name">Software Engineer</div>
+										<div class="company">CH2 Solutions</div>
+										<p>
+											Developed server-side solutions, improved UI with React, and created design documents for critical application functionalities.
+										</p>
+									</div>
+									<div class="resume-item border-line-h active">
+										<div class="date">2021 - 2022</div>
+										<div class="name">Software Engineer</div>
+										<div class="company">BairesDev</div>
+										<p>
+											Optimized front-end capabilities with API integrations, Improved microservices performance across distributed systems, and managed databases with AWS and GCP.
+										</p>
+									</div>
+									<div class="resume-item border-line-h active">
+										<div class="date">2016 - 2021</div>
+										<div class="name">Development Team Leader</div>
+										<div class="company">Tecnasa</div>
+										<p>
+											Developed back-office and financial solutions. Orchestrated deployment of microservices for financial institutions on On-Premise cloud infra ensuring scalability and reliability.
+										</p>
+									</div>
+                  <div class="resume-item border-line-h active">
+										<div class="date">2012 - 2016</div>
+										<div class="name">Developer</div>
+                    <div class="company">Overall</div>
+										<p>
+											Developed web projects, desktop programs, and services using Microsoft tools. Managed Microsoft SQL Server databases and developed tailored solutions across different industries.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- education -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="resume-title border-line-h">
+									<div class="icon"><i class="fa fa-university"></i></div>
+									<div class="name">Education</div>
+								</div>
+								<div class="resume-items">
+									<div class="resume-item border-line-h active">
+										<div class="date">2006 - 2011</div>
+										<div class="name">UNAH</div>
+										<div class="company">Honduras</div>
+										<p>
+											The National University Autonomous of Honduras (UNAH) is the leading institution in the Honduran higher education, fulfilling with a strong commitment in the academia, research, science, culture and development of the country.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Skills
+					-->
+					<div class="content skills">
+
+						<!-- content -->
+						<div class="row">
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list dotted">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="fa fa-flag"></i></div>
+										<div class="name">Languages</div>
+									</div>
+									<ul>
+										<li class="border-line-h">
+											<div class="name">English</div>
+											<div class="progress">
+												<div class="percentage" style="width:100%;"></div>
+											</div>
+										</li>
+										<li class="border-line-h">
+											<div class="name">Spanish</div>
+											<div class="progress">
+												<div class="percentage" style="width:100%;"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- skill item -->
+							<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+								<div class="skills-list list">
+									<div class="skill-title border-line-h">
+										<div class="icon"><i class="fa fa-list"></i></div>
+										<div class="name">Knowledge</div>
+									</div>
+									<ul>
+										<li>
+											<div class="name">Spring Framework</div>
+										</li>
+										<li>
+											<div class="name">.Net Core</div>
+										</li>
+										<li>
+											<div class="name">React Native</div>
+										</li>
+                    <li>
+											<div class="name">AWS</div>
+										</li>
+                    <li>
+											<div class="name">GCP</div>
+										</li>
+										<li>
+											<div class="name">Java</div>
+										</li>
+										<li>
+											<div class="name">C#</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+					<!--
+						Testimonials
+					-->
+					<div class="content testimonials">
+
+						<!-- title -->
+						<div class="title">Testimonials</div>
+
+						<!-- content -->
+						<div class="row testimonials-items">
+
+							<!-- client item -->
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="revs-carousel default-revs">
+									<div class="owl-carousel">
+										<div class="item">
+											<div class="revs-item">
+												<div class="text">
+													Pedro is an amazing Java developer with attention to details. He can solve problems quickly and is always trying to improve his work. It was a very good time for me when I was working with Pedro. He is someone the company and colleagues can count on!
+												</div>
+												<div class="user">
+													<div class="info">
+														<div class="name">Diego Souza</div>
+														<div class="company">Senior Software Engineer</div>
+													</div>
+													<div class="clear"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--
+				Card - Contacts
+			-->
+			<div class="card-inner contacts" id="contacts-card">
+				<div class="card-wrap">
+
+					<!--
+						Conacts Info
+					-->
+					<div class="content contacts">
+
+						<!-- title -->
+						<div class="title">Get in Touch</div>
+
+						<!-- content -->
+						<div class="row">
+							<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+								<div class="info-list">
+									<ul>
+										<li><strong>Email . . . . .</strong> <a href="mailto:p.morandev@gmail.com" target="_blank">p.morandev@gmail.com</a></li>
+										<li><strong>Freelance . . . . .</strong> Available</li>
+									</ul>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="s_overlay"></div>
+
+	</div>
+
+	<!--
+		jQuery Scripts
+	-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/jquery.slimscroll.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="https://use.fontawesome.com/8da76d029b.js"></script>
+
+	<!--
+		Main Scripts
+	-->
+	<script src="js/scripts.js"></script>
+
+	<!--
+		Google map api
+	-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 
 </body>
+</html>
